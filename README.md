@@ -13,7 +13,7 @@ The core challenge of this project was finding the optimal hardware architecture
 
 Through an iterative optimization loop, I explored different microarchitectures by unrolling shift loops and pipelining math loops to find the perfect balance of speed and physical size.
 
-![Catapult XY Plot: Latency vs. Area](images/dsp_unit_xy_plot.png)
+![Catapult XY Plot: Latency vs. Area](dsp_unit_xy_plot.png)
 *Figure 1: Architecture exploration showing the Pareto front trade-off between Total Area Score and Latency Time.*
 
 As shown in the X/Y plot above, multiple solutions were generated to analyze the hardware trade-offs. The winning design (**`dsp_unit.v8`**, highlighted in red) represents the ultimate "sweet spot":
